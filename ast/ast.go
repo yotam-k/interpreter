@@ -43,7 +43,6 @@ func (p *Program) String() string {
 	return out.String()
 }
 
-// let <identifier> = <expression>
 type LetStatement struct {
 	Token token.Token
 	Name  *Identifier
